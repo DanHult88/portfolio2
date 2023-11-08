@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Dan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dan Hult - Developer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi and welcome to my portfolio</h2>
+                <p class="hero_desc">I am Dan, an aspiring Webb-Developer from Kalmar, Sweden.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="container section" id="experiences">
+        <h1 class="text-center">My experiences</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Front End developing</h4>
+                        <p class="card-text mt-3">I have experience with CSS and HTML for front end development aswell as Wordpress, planning on learning Javascript.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Back end developing</h4>
+                        <p class="card-text mt-3">I have experience in developing for back-end with PHP-funtions, langauges such as C#, SQL, JS and Entity framework.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Full stack developing</h4>
+                        <p class="card-text mt-3">I have experience with developing full stack, creating an e-commerce website as a school-project showcased further down.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        
+
+        
+    </section>
+    
+
+
+    
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+      
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="Images/development-4536630_1280.webp" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <h4>I'm Dan, a former chef turning Webb-Developer.</h4>
+                <p>I've always been fascinated by the World Wide Web and the intricate ways of coding. When I injured my leg and couldn't return to work in the kitchen the choice was clear. To follow another passion of mine, which is developing. I like many others spend a lot of time on the internet and have visited both amazing and not so amazing websites. Hopefully I'll be able to create the former and not the latter.
+                    
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Working-Out</li>
+                            <li>Cooking</li>
+                            <li>Coding</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Learning</li>
+                            <li>Sports</li>
+                            <li>Technology</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> Here on my page you will find me showcasing things I've recently done, projects that I'm currently working on and exciting things to come. Don't hesitate to check out my portfolio or some of my work using the links down below!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-compass"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">As a Webb-developer my job is to develop websites from the ground up and offer a great user experience.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-image'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3">I will design your website and bring it up to date. With the latest design trends and good functionality.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-handshake'></i>
+                        <h4 class="card-title mt-3">Website Deployment</h4>
+                        <p class="card-text mt-3">I can help with deploying and monitoring the website, keeping it up to date, making sure it's safe.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">The journey ahead</h1>
+      
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="Images/Untitled.png" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <h4>I started studying Webb-development in August 2022 and will finish my degree in June 2024.</h4>
+                <div></div>
+                <div></div>
+                <p> I'll always strive to get better, having a degree is great but it doesn't mean I'm done, far from it. The journey to becoming a great webb-developer is just getting started. If you wanna be a part of that journey, hit me up in the contact formula down below! </p>
+                
+                    <div></div>
+               
+                <div class="row mt-3">
+                    <p> As a webb-developer to be I'm always curious and interested in new things, technologies and trends. For instance, this picture showcasing a male programmer was made by an Ai. Technology is great and an ever developing matter. "The more you know, the more you realize you don't know." as a famous greek once said.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section hidden" id="portfolio">
+        <div class="container mt-3">
+          <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4 fade-in">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/pizza.png" alt="Pizzaplace" style="width:100%; height:298px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Pizza online</h4>
+                            <p class="card-text">A Pizzaplace Developed through the use of Wordpress, Themify</p>
+                            <div class="text-center">
+                                <a href="https://www.intriguingdesigns.se/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mt-4 fade-in">
+                    <div class="card">
+                        <video class="card-img-top" controls style="width:100%; height:275px;">
+                            <source src="Images/2023-10-11 11-22-26.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="card-body">
+                            <h4 class="card-title">E-commerce development</h4>
+                            <p class="card-text">Developed an e-commerce-site using SQL and EF to store items and orders. Please press the video to get further information.</p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/channel/UCqwPbdODCzwYcEeBKzF12Rw" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mt-4 fade-in">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/photo-1499951360447-b19be8fe80f5.avif" alt="Card image" style="width:100%; height:275px;">
+                        <div class="card-body">
+                            <h4 class="card-title">My Product Landing Page</h4>
+                            <p class="card-text">Here you can find the products and the services that I have worked on during the course of being a student at TUC.  </p>
+                            <div class="text-center">
+                                <a href="https://github.com/DanHult88" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    
+    
+    <!-- contact section-->
+    <section class="container mt-3 section dark-section" id="contact">
+        <h1 class="text-center text-white">Contact Me</h1>
+        <div class="text-center">
+            <h5 class="centered-h5">The contact formula is currently not connected to a PHP.</h5>
+            <h5 class="centered-h5">Instead, click the "Contact me" button and please enter your information there.</h5>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                
+                <div style="max-width:100%;overflow:hidden;color:rgb(0, 0, 0);width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35059.67543231588!2d16.286590363448877!3d56.687483740810414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4657cc1ca778251b%3A0x400fef341e49060!2sKalmar!5e0!3m2!1ssv!2sse!4v1694605758081!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                
+                <!-- form fields -->
+                <form id="contact-form">
+                    <input type="text" id="name" class="form-control form-control-lg" placeholder="Name*">
+                    <input type="email" id="email" class="form-control mt-3" placeholder="Email*">
+                    <input type="text" id="subject" class="form-control mt-3" placeholder="Subject*">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="11" id="comment" name="text" placeholder="Project Details*"></textarea>
+                    </div>
+                </form>
+                <a href="mailto:dan.hult@hotmail.com" class="btn btn-success mt-3" onclick="clearForm()">Contact me</a>
+            </div>
+            
+            <script>
+                function clearForm() {
+                    document.getElementById('name').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('subject').value = '';
+                    document.getElementById('comment').value = '';
+                }
+            </script>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright © Dan Hult 2023.</p>
+        
+            </div>
+        </div>
+    
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+        
+            <a href="https://github.com/DanHult88" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/dan-hult-344977251/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- loads Javascript after all html content -->
+    <script src="script/script.js"></script>
+
+    
+
+</body>
+
+</html>
